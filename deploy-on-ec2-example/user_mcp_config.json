@@ -1,0 +1,23 @@
+{
+  "8a752b8e": {
+    "mysql": {
+      "url": "",
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/home/ec2-user/mysql-mcp",
+        "run",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "mcpuser",
+        "MYSQL_PASSWORD": "mcppassword",
+        "MYSQL_DATABASE": "gaming_marketing"
+      },
+      "description": "mysql",
+      "token": null
+    }
+  }
+}
